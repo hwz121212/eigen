@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E26BCC51-CF85-3EAA-8D17-7BD5D5FA5209}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>unsupported_examples</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\unsupported\doc\examples\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/unsupported/doc/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/hanwenzhi_code/eigen/backup/eigen-3.4.0 -BD:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build --check-stamp-file D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build/unsupported/doc/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\doc\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/unsupported/doc/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/hanwenzhi_code/eigen/backup/eigen-3.4.0 -BD:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build --check-stamp-file D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build/unsupported/doc/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\doc\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\ZERO_CHECK.vcxproj">
+      <Project>{0B1E514E-D276-3895-94E2-826C8444719F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\doc\examples\example_BVH_Example.vcxproj">
+      <Project>{304D4AC0-602C-3A14-ACA0-5C4B16FD8D96}</Project>
+      <Name>example_BVH_Example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\doc\examples\example_EulerAngles.vcxproj">
+      <Project>{8B23E08A-50A5-3BCF-A0F0-37FC73156B61}</Project>
+      <Name>example_EulerAngles</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\doc\examples\example_FFT.vcxproj">
+      <Project>{74EB0FFC-47BD-30A1-B7C3-5BC3B06F8805}</Project>
+      <Name>example_FFT</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\doc\examples\example_MatrixExponential.vcxproj">
+      <Project>{F24C5562-A764-36C8-9E52-26F3DF3EEF5F}</Project>
+      <Name>example_MatrixExponential</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\doc\examples\example_MatrixFunction.vcxproj">
+      <Project>{DE767E24-D1C6-3ED3-9CD0-07DF7B0F7347}</Project>
+      <Name>example_MatrixFunction</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\doc\examples\example_MatrixLogarithm.vcxproj">
+      <Project>{361F0159-9F99-3BCC-91D1-07679D1CB6D4}</Project>
+      <Name>example_MatrixLogarithm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\doc\examples\example_MatrixPower.vcxproj">
+      <Project>{6504308E-14F9-3E68-8A8F-C02158529CBC}</Project>
+      <Name>example_MatrixPower</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\doc\examples\example_MatrixPower_optimal.vcxproj">
+      <Project>{53DA22A1-15B9-37DA-A929-675512237078}</Project>
+      <Name>example_MatrixPower_optimal</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\doc\examples\example_MatrixSine.vcxproj">
+      <Project>{278EB14A-55FF-34C9-AE6E-D4BE11850C9A}</Project>
+      <Name>example_MatrixSine</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\doc\examples\example_MatrixSinh.vcxproj">
+      <Project>{AA096683-27AD-3C13-ADDA-4531725322FC}</Project>
+      <Name>example_MatrixSinh</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\doc\examples\example_MatrixSquareRoot.vcxproj">
+      <Project>{75AC6565-678C-3F3C-A35F-12DE3AFB5AC2}</Project>
+      <Name>example_MatrixSquareRoot</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\doc\examples\example_PolynomialSolver1.vcxproj">
+      <Project>{9DB627B8-21D6-34CC-95A5-23417CF96552}</Project>
+      <Name>example_PolynomialSolver1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\doc\examples\example_PolynomialUtils1.vcxproj">
+      <Project>{9B692B38-E91C-3137-B7CB-1450454FD0B1}</Project>
+      <Name>example_PolynomialUtils1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\CMakeFiles\2531a6056971e44a8b33ffe4c949a5f4\doc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\doc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\CMakeFiles\doc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B3A4F428-74B2-32EF-A86E-35430FF934AD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

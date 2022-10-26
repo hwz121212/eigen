@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{30235452-5E00-31FE-A038-DE720C66BCDA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>doc-unsupported-prerequisites</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\CMakeFiles\2531a6056971e44a8b33ffe4c949a5f4\doc-unsupported-prerequisites.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build/doc/html/unsupported
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/doc/eigen_navtree_hacks.js D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build/doc/html/unsupported/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/doc/Eigen_Silly_Professor_64x64.png D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build/doc/html/unsupported/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/doc/ftv2pnode.png D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build/doc/html/unsupported/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/doc/ftv2node.png D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build/doc/html/unsupported/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\CMakeFiles\doc-unsupported-prerequisites</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build/doc/html/unsupported
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/doc/eigen_navtree_hacks.js D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build/doc/html/unsupported/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/doc/Eigen_Silly_Professor_64x64.png D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build/doc/html/unsupported/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/doc/ftv2pnode.png D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build/doc/html/unsupported/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/doc/ftv2node.png D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build/doc/html/unsupported/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\CMakeFiles\doc-unsupported-prerequisites</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\doc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/hanwenzhi_code/eigen/backup/eigen-3.4.0 -BD:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build --check-stamp-file D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\doc\Doxyfile.in;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\doc\eigendoxy_footer.html.in;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\doc\eigendoxy_header.html.in;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\doc\eigendoxy_layout.xml.in;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/hanwenzhi_code/eigen/backup/eigen-3.4.0 -BD:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build --check-stamp-file D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\doc\Doxyfile.in;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\doc\eigendoxy_footer.html.in;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\doc\eigendoxy_header.html.in;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\doc\eigendoxy_layout.xml.in;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\CMakeFiles\doc-unsupported-prerequisites">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\ZERO_CHECK.vcxproj">
+      <Project>{0B1E514E-D276-3895-94E2-826C8444719F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\doc\examples\unsupported_examples.vcxproj">
+      <Project>{E26BCC51-CF85-3EAA-8D17-7BD5D5FA5209}</Project>
+      <Name>unsupported_examples</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\doc\snippets\unsupported_snippets.vcxproj">
+      <Project>{644DAB14-4DBB-3D81-8F97-6E96F61234DF}</Project>
+      <Name>unsupported_snippets</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

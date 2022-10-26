@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7A0C488F-7508-375A-8E1E-9ABB1DEE63BF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>polynomialsolver</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\unsupported\test\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/hanwenzhi_code/eigen/backup/eigen-3.4.0 -BD:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build --check-stamp-file D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindThreads.cmake;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\cmake\FindAdolc.cmake;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\cmake\FindFFTW.cmake;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\cmake\FindGoogleHash.cmake;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\cmake\FindMPFR.cmake;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\cmake\FindMPREAL.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/hanwenzhi_code/eigen/backup/eigen-3.4.0 -BD:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build --check-stamp-file D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.23\Modules\FindThreads.cmake;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\cmake\FindAdolc.cmake;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\cmake\FindFFTW.cmake;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\cmake\FindGoogleHash.cmake;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\cmake\FindMPFR.cmake;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\cmake\FindMPREAL.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\ZERO_CHECK.vcxproj">
+      <Project>{0B1E514E-D276-3895-94E2-826C8444719F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\test\polynomialsolver_1.vcxproj">
+      <Project>{7BFC8FE1-3918-395C-838A-837E5AF032E5}</Project>
+      <Name>polynomialsolver_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\test\polynomialsolver_10.vcxproj">
+      <Project>{9ABF251A-BA74-386F-AACB-D495ECB80E31}</Project>
+      <Name>polynomialsolver_10</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\test\polynomialsolver_11.vcxproj">
+      <Project>{613D0D90-5BD4-3203-A0CF-E4517071C983}</Project>
+      <Name>polynomialsolver_11</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\test\polynomialsolver_12.vcxproj">
+      <Project>{985091FF-9744-3288-B744-64F51D824829}</Project>
+      <Name>polynomialsolver_12</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\test\polynomialsolver_2.vcxproj">
+      <Project>{23616B60-F6BB-3E84-B2A1-681D29A8EADD}</Project>
+      <Name>polynomialsolver_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\test\polynomialsolver_3.vcxproj">
+      <Project>{2E637209-CB6F-38D7-81B6-6D958B632ED5}</Project>
+      <Name>polynomialsolver_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\test\polynomialsolver_4.vcxproj">
+      <Project>{17B54218-EA22-32FE-A30A-CA647A38577A}</Project>
+      <Name>polynomialsolver_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\test\polynomialsolver_5.vcxproj">
+      <Project>{2FAA6893-55DF-310B-B9C5-E0A262E878DB}</Project>
+      <Name>polynomialsolver_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\test\polynomialsolver_6.vcxproj">
+      <Project>{02E1B499-D7A7-39D0-8503-15FDF701D865}</Project>
+      <Name>polynomialsolver_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\test\polynomialsolver_7.vcxproj">
+      <Project>{092E6824-BD09-3629-8831-C311B7A00EEF}</Project>
+      <Name>polynomialsolver_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\test\polynomialsolver_8.vcxproj">
+      <Project>{B97522D5-C16B-3BD1-9D01-85365C44BC37}</Project>
+      <Name>polynomialsolver_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\unsupported\test\polynomialsolver_9.vcxproj">
+      <Project>{F38865EC-D4A3-312E-A28B-EDD58571F638}</Project>
+      <Name>polynomialsolver_9</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2C56945D-7D54-3AD7-9A19-66F54EA8ACAE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>all_examples</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\doc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/hanwenzhi_code/eigen/backup/eigen-3.4.0 -BD:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build --check-stamp-file D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\doc\Doxyfile.in;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\doc\eigendoxy_footer.html.in;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\doc\eigendoxy_header.html.in;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\doc\eigendoxy_layout.xml.in;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/hanwenzhi_code/eigen/backup/eigen-3.4.0 -BD:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build --check-stamp-file D:/hanwenzhi_code/eigen/backup/eigen-3.4.0/build/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\doc\Doxyfile.in;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\doc\eigendoxy_footer.html.in;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\doc\eigendoxy_header.html.in;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\doc\eigendoxy_layout.xml.in;D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\ZERO_CHECK.vcxproj">
+      <Project>{0B1E514E-D276-3895-94E2-826C8444719F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\CustomizingEigen_Inheritance.vcxproj">
+      <Project>{D6EC47F5-B754-3DC2-A923-53F6CB4C908F}</Project>
+      <Name>CustomizingEigen_Inheritance</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Cwise_erf.vcxproj">
+      <Project>{61B1E490-184F-3702-9560-274CD86AD707}</Project>
+      <Name>Cwise_erf</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Cwise_erfc.vcxproj">
+      <Project>{501A748E-7112-30CD-B102-F3DCCAD29E02}</Project>
+      <Name>Cwise_erfc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Cwise_lgamma.vcxproj">
+      <Project>{517224BC-2F25-327F-8A95-B574B33416C4}</Project>
+      <Name>Cwise_lgamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\DenseBase_middleCols_int.vcxproj">
+      <Project>{335BC705-49D8-3653-B661-69A280343ED3}</Project>
+      <Name>DenseBase_middleCols_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\DenseBase_middleRows_int.vcxproj">
+      <Project>{3E5FD4EE-028B-3A8B-A2BF-9DF5A69E09DD}</Project>
+      <Name>DenseBase_middleRows_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\DenseBase_template_int_middleCols.vcxproj">
+      <Project>{92E8A7D6-2A81-3304-A1A1-693F22A81BA7}</Project>
+      <Name>DenseBase_template_int_middleCols</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\DenseBase_template_int_middleRows.vcxproj">
+      <Project>{628461D1-0723-31BB-A44A-5687BAB5190D}</Project>
+      <Name>DenseBase_template_int_middleRows</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\QuickStart_example.vcxproj">
+      <Project>{A99809F3-3A60-361D-9091-51DC4013ED8F}</Project>
+      <Name>QuickStart_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\QuickStart_example2_dynamic.vcxproj">
+      <Project>{B62B7C97-7254-343C-B807-BF78FCBDD2DA}</Project>
+      <Name>QuickStart_example2_dynamic</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\QuickStart_example2_fixed.vcxproj">
+      <Project>{4471D595-0A8D-3047-9561-C74C352925E4}</Project>
+      <Name>QuickStart_example2_fixed</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\TemplateKeyword_flexible.vcxproj">
+      <Project>{CEE5755B-86CE-349B-97E6-D929BC6F5DFD}</Project>
+      <Name>TemplateKeyword_flexible</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\TemplateKeyword_simple.vcxproj">
+      <Project>{D808C2E3-90B4-37FA-9B9D-61EB3FC1D212}</Project>
+      <Name>TemplateKeyword_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\TutorialInplaceLU.vcxproj">
+      <Project>{762FBCD5-2E6D-30CE-8231-0A98217B8E03}</Project>
+      <Name>TutorialInplaceLU</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\TutorialLinAlgComputeTwice.vcxproj">
+      <Project>{180A2D29-7DAF-30D4-AB35-75AB588BB002}</Project>
+      <Name>TutorialLinAlgComputeTwice</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\TutorialLinAlgExComputeSolveError.vcxproj">
+      <Project>{97225E65-FDDF-3476-9F87-9E7384686A41}</Project>
+      <Name>TutorialLinAlgExComputeSolveError</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\TutorialLinAlgExSolveColPivHouseholderQR.vcxproj">
+      <Project>{E8365119-1611-3F5F-AF07-5EE3523CF111}</Project>
+      <Name>TutorialLinAlgExSolveColPivHouseholderQR</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\TutorialLinAlgExSolveLDLT.vcxproj">
+      <Project>{72BC6855-1143-3532-8875-96C85F215A1F}</Project>
+      <Name>TutorialLinAlgExSolveLDLT</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\TutorialLinAlgInverseDeterminant.vcxproj">
+      <Project>{DF737A63-6083-34AE-99FC-F23C2E520ADF}</Project>
+      <Name>TutorialLinAlgInverseDeterminant</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\TutorialLinAlgRankRevealing.vcxproj">
+      <Project>{3660AF98-81D3-34AE-91EF-BAF09C825AB8}</Project>
+      <Name>TutorialLinAlgRankRevealing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\TutorialLinAlgSVDSolve.vcxproj">
+      <Project>{39B943F1-09DF-3438-8637-90AAF6463FFC}</Project>
+      <Name>TutorialLinAlgSVDSolve</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\TutorialLinAlgSelfAdjointEigenSolver.vcxproj">
+      <Project>{C617A436-C833-3FC6-B4E1-50057B3E1D64}</Project>
+      <Name>TutorialLinAlgSelfAdjointEigenSolver</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\TutorialLinAlgSetThreshold.vcxproj">
+      <Project>{8AA5933F-C51D-37F0-9A8E-1BB1EFD5443C}</Project>
+      <Name>TutorialLinAlgSetThreshold</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_ArrayClass_accessors.vcxproj">
+      <Project>{2DD3B987-A759-3212-BC42-52A3DA42790B}</Project>
+      <Name>Tutorial_ArrayClass_accessors</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_ArrayClass_addition.vcxproj">
+      <Project>{2467D645-7A81-3BDE-93ED-76FDD32CB24F}</Project>
+      <Name>Tutorial_ArrayClass_addition</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_ArrayClass_cwise_other.vcxproj">
+      <Project>{65FBAAF7-4ABE-34A7-9846-32553CFF9DED}</Project>
+      <Name>Tutorial_ArrayClass_cwise_other</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_ArrayClass_interop.vcxproj">
+      <Project>{CDC90EDD-4BB1-3F9C-BA3E-31D8962504C9}</Project>
+      <Name>Tutorial_ArrayClass_interop</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_ArrayClass_interop_matrix.vcxproj">
+      <Project>{8349748E-3869-32BB-B06C-0DDBE16DED13}</Project>
+      <Name>Tutorial_ArrayClass_interop_matrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_ArrayClass_mult.vcxproj">
+      <Project>{AD61F35D-84C0-3591-88E8-3E98693527DF}</Project>
+      <Name>Tutorial_ArrayClass_mult</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_BlockOperations_block_assignment.vcxproj">
+      <Project>{A40A802D-35AE-32CF-B013-FC43F6F35200}</Project>
+      <Name>Tutorial_BlockOperations_block_assignment</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_BlockOperations_colrow.vcxproj">
+      <Project>{874723D9-CA68-3176-B344-52301D030D90}</Project>
+      <Name>Tutorial_BlockOperations_colrow</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_BlockOperations_corner.vcxproj">
+      <Project>{93B4C1AE-9741-312B-B3AE-1BF477493BE7}</Project>
+      <Name>Tutorial_BlockOperations_corner</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_BlockOperations_print_block.vcxproj">
+      <Project>{C31A2451-D803-3785-9C9F-F646FC7CD94D}</Project>
+      <Name>Tutorial_BlockOperations_print_block</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_BlockOperations_vector.vcxproj">
+      <Project>{8D6752DA-CD1B-3E0B-8561-13231AB4AB1B}</Project>
+      <Name>Tutorial_BlockOperations_vector</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_PartialLU_solve.vcxproj">
+      <Project>{CA78E87A-C325-3E28-BFE1-B91089267AB1}</Project>
+      <Name>Tutorial_PartialLU_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_1nn.vcxproj">
+      <Project>{26700933-FBA9-3615-939F-BD053E4738F8}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_1nn</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.vcxproj">
+      <Project>{9FB5198E-693F-3C9F-8C89-CBA6C0DD02A6}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.vcxproj">
+      <Project>{B0BB3EF6-8AC0-35F6-95FC-B95BA437AD18}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_colwise.vcxproj">
+      <Project>{4015EFD4-3F13-3BDD-8FAA-8ECD64A293F5}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_colwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_maxnorm.vcxproj">
+      <Project>{4B0E3B9B-93F4-31EF-88FF-3835A98F5B81}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_maxnorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_bool.vcxproj">
+      <Project>{BF8571B2-DDAE-3F86-929D-43CB2F29EB43}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_bool</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_norm.vcxproj">
+      <Project>{330D9290-C148-30AE-BDE7-63925B7E5B8D}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_norm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_operatornorm.vcxproj">
+      <Project>{15D924E4-42B2-3493-B905-A4464B1DD82C}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_operatornorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_rowwise.vcxproj">
+      <Project>{2F01ED83-C5A4-3048-B195-68DEB8246FF3}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_rowwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_visitors.vcxproj">
+      <Project>{BB521970-D5AB-3B32-9941-BF8EA6086BB6}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_visitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_simple_example_dynamic_size.vcxproj">
+      <Project>{3091A9BD-AE5C-3788-8529-914081C4B842}</Project>
+      <Name>Tutorial_simple_example_dynamic_size</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\Tutorial_simple_example_fixed_size.vcxproj">
+      <Project>{EEAAB664-96A2-3C2C-9373-056F14637607}</Project>
+      <Name>Tutorial_simple_example_fixed_size</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\class_Block.vcxproj">
+      <Project>{ED476709-468C-31BB-B33C-A3A002D61367}</Project>
+      <Name>class_Block</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\class_CwiseBinaryOp.vcxproj">
+      <Project>{5998BA87-C0A9-3149-BA34-FEE54A04AECA}</Project>
+      <Name>class_CwiseBinaryOp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\class_CwiseUnaryOp.vcxproj">
+      <Project>{0219A079-5FCF-3FA4-B9EB-8C74517DEF22}</Project>
+      <Name>class_CwiseUnaryOp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\class_CwiseUnaryOp_ptrfun.vcxproj">
+      <Project>{D5ABBE5E-895D-321A-8E84-630F56C71C31}</Project>
+      <Name>class_CwiseUnaryOp_ptrfun</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\class_FixedBlock.vcxproj">
+      <Project>{4FFEBE1B-2CB6-31AC-8CA6-9E06AAF7EC0A}</Project>
+      <Name>class_FixedBlock</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\class_FixedReshaped.vcxproj">
+      <Project>{D5632489-B834-3BE4-A664-533D99C33D84}</Project>
+      <Name>class_FixedReshaped</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\class_FixedVectorBlock.vcxproj">
+      <Project>{72DED357-D9FF-31F0-B8A8-7A761A591487}</Project>
+      <Name>class_FixedVectorBlock</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\class_Reshaped.vcxproj">
+      <Project>{02E2A9A1-7424-3E48-93F4-7ED42D819D20}</Project>
+      <Name>class_Reshaped</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\class_VectorBlock.vcxproj">
+      <Project>{DEB07038-8DB7-3E4E-A287-9A7196317E52}</Project>
+      <Name>class_VectorBlock</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\function_taking_eigenbase.vcxproj">
+      <Project>{C248840C-AA9E-34D9-8E04-C9AC802CB963}</Project>
+      <Name>function_taking_eigenbase</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\function_taking_ref.vcxproj">
+      <Project>{6EF496FF-3154-3069-B459-816EDFD1C6FE}</Project>
+      <Name>function_taking_ref</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\make_circulant.vcxproj">
+      <Project>{70D3F307-EE8A-39D7-8E07-32F3D8A5555B}</Project>
+      <Name>make_circulant</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\make_circulant2.vcxproj">
+      <Project>{3404BFFD-094F-3547-AD22-736819DF665F}</Project>
+      <Name>make_circulant2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\matrixfree_cg.vcxproj">
+      <Project>{0F8A25E9-35E9-3780-9843-587F99AB2A88}</Project>
+      <Name>matrixfree_cg</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\nullary_indexing.vcxproj">
+      <Project>{95EC7343-32D9-3258-8621-5895AD87125F}</Project>
+      <Name>nullary_indexing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\special_examples\random_cpp11.vcxproj">
+      <Project>{3D9E7FC9-FF1F-3481-B555-A8EA003AF397}</Project>
+      <Name>random_cpp11</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\tut_arithmetic_add_sub.vcxproj">
+      <Project>{7AC9D644-4C9D-3980-B706-D5548C4314D4}</Project>
+      <Name>tut_arithmetic_add_sub</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\tut_arithmetic_dot_cross.vcxproj">
+      <Project>{89CDCC8A-92D8-3862-A721-88EBBC1242D2}</Project>
+      <Name>tut_arithmetic_dot_cross</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\tut_arithmetic_matrix_mul.vcxproj">
+      <Project>{BD11EFC9-7B29-39DD-BA1D-0C15352F22C2}</Project>
+      <Name>tut_arithmetic_matrix_mul</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\tut_arithmetic_redux_basic.vcxproj">
+      <Project>{95B02118-7A3F-373E-98A0-903FEBD5C0C7}</Project>
+      <Name>tut_arithmetic_redux_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\tut_arithmetic_scalar_mul_div.vcxproj">
+      <Project>{FBDAE939-7172-3E29-9A3E-60000C9A3A9B}</Project>
+      <Name>tut_arithmetic_scalar_mul_div</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\tut_matrix_coefficient_accessors.vcxproj">
+      <Project>{BBAA9AE4-C96D-35F8-8B56-6C7D59D686FE}</Project>
+      <Name>tut_matrix_coefficient_accessors</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\tut_matrix_resize.vcxproj">
+      <Project>{A8C41626-7344-33D3-BBCE-A741AA4DCA1E}</Project>
+      <Name>tut_matrix_resize</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\hanwenzhi_code\eigen\backup\eigen-3.4.0\build\doc\examples\tut_matrix_resize_fixed_size.vcxproj">
+      <Project>{B9A07B5A-1DBB-3FD0-B554-A70FD5E1C315}</Project>
+      <Name>tut_matrix_resize_fixed_size</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
