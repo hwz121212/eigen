@@ -10,9 +10,9 @@
 #ifndef EIGEN_SPARSE_EXTRA_MODULE_H
 #define EIGEN_SPARSE_EXTRA_MODULE_H
 
-#include "../../Eigen/Sparse"
+#include "Eigen/Sparse"
 
-#include "../../Eigen/src/Core/util/DisableStupidWarnings.h"
+#include "Eigen/src/Core/util/DisableStupidWarnings.h"
 
 #include <vector>
 #include <map>
@@ -49,6 +49,6 @@
 #include "src/SparseExtra/MatrixMarketIterator.h"
 #endif
 
-#include "../../Eigen/src/Core/util/ReenableStupidWarnings.h"
+#include "Eigen/src/Core/util/ReenableStupidWarnings.h"
 
 #endif // EIGEN_SPARSE_EXTRA_MODULE_H

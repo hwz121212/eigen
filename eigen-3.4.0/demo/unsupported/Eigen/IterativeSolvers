@@ -10,9 +10,9 @@
 #ifndef EIGEN_ITERATIVE_SOLVERS_MODULE_H
 #define EIGEN_ITERATIVE_SOLVERS_MODULE_H
 
-#include "../../Eigen/Sparse"
-#include "../../Eigen/Jacobi"
-#include "../../Eigen/Householder"
+#include "Eigen/Sparse"
+#include "Eigen/Jacobi"
+#include "Eigen/Householder"
 
 
 /**
@@ -31,7 +31,7 @@
   */
 
 
-#include "../../Eigen/src/Core/util/DisableStupidWarnings.h"
+#include "Eigen/src/Core/util/DisableStupidWarnings.h"
 
 #ifndef EIGEN_MPL2_ONLY
 #include "src/IterativeSolvers/IterationController.h"
@@ -45,7 +45,7 @@
 #include "src/IterativeSolvers/MINRES.h"
 #include "src/IterativeSolvers/IDRS.h"
 
-#include "../../Eigen/src/Core/util/ReenableStupidWarnings.h"
+#include "Eigen/src/Core/util/ReenableStupidWarnings.h"
 
 
 #endif // EIGEN_ITERATIVE_SOLVERS_MODULE_H

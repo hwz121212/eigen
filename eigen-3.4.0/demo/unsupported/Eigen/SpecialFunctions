@@ -12,9 +12,9 @@
 
 #include <math.h>
 
-#include "../../Eigen/Core"
+#include "Eigen/Core"
 
-#include "../../Eigen/src/Core/util/DisableStupidWarnings.h"
+#include "Eigen/src/Core/util/DisableStupidWarnings.h"
 
 namespace Eigen {
 
@@ -98,6 +98,6 @@ namespace Eigen {
 }
 
 
-#include "../../Eigen/src/Core/util/ReenableStupidWarnings.h"
+#include "Eigen/src/Core/util/ReenableStupidWarnings.h"
 
 #endif // EIGEN_SPECIALFUNCTIONS_MODULE
